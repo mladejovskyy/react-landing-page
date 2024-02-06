@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heroImg {
+    transform: translateY(-10vh);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+.sluzby-foto {
+    border-radius: 1rem !important;
+    width: 90%;
+}
