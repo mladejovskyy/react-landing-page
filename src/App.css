@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*/
 
 .heroImg {
     transform: translateY(-10vh);
@@ -23,6 +25,21 @@ html {
 }
 
 .sluzby-foto {
-    border-radius: 1rem !important;
     width: 90%;
 }
+
+.footer-menu li {
+    transition: all .2s linear;
+}
+
+.footer-menu li:hover {
+    transform: translateY(-1px);
+}
+
+.card:first-child {
+    margin-left: 0;
+  }
+
+  .card:last-child {
+    margin-right: 0;
+  }

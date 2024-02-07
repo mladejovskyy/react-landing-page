@@ -6,8 +6,31 @@ import Investment from './components/Investment'
 import Features from './components/Features'
 import Services from './components/Services'
 import Footer from './components/Footer'
+import Reviews from './components/Reviews'
 
 function App() {
+
+  const reviewsData = [
+    {
+      img: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      name: "Jan Novák",
+      job: "CEO Google",
+      text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quis cum cumque, sint eos in voluptas quam nihil accusamus delectus deserunt velit minima nisi aut. Alias sequi itaque eos earum."
+    },
+    {
+      img: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      name: "Petr Školník",
+      job: "Kryptobaron",
+      text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quis cum cumque, sint eos in voluptas quam nihil accusamus delectus deserunt velit minima nisi aut. Alias sequi itaque eos earum."
+    },
+    {
+      img: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      name: "Honza Novák",
+      job: "Trader pro FCMO",
+      text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quis cum cumque, sint eos in voluptas quam nihil accusamus delectus deserunt velit minima nisi aut. Alias sequi itaque eos earum."
+    },
+
+  ]
 
   return (
     <>
@@ -37,6 +60,9 @@ function App() {
 
       {/* Service section */}
       <Services/>
+
+      {/* Reference section */}
+      <Reviews reviewsData={reviewsData}/>
 
       {/* Footer */}
       <Footer />
