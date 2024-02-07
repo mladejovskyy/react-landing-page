@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 /* 
 @tailwind base;
@@ -7,39 +7,38 @@
 */
 
 .heroImg {
-    transform: translateY(-10vh);
+  transform: translateY(-10vh);
 }
 
 * {
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 html {
-    scroll-behavior: smooth;
-
+  scroll-behavior: smooth;
 }
 
 .sluzby-foto {
-    width: 90%;
+  width: 90%;
 }
 
 .footer-menu li {
-    transition: all .2s linear;
+  transition: all 0.2s linear;
 }
 
 .footer-menu li:hover {
-    transform: translateY(-1px);
+  transform: translateY(-1px);
 }
 
 .card:first-child {
-    margin-left: 0;
-  }
+  margin-left: 0;
+}
 
-  .card:last-child {
-    margin-right: 0;
-  }
+.card:last-child {
+  margin-right: 0;
+}
