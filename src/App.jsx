@@ -36,14 +36,14 @@ function App() {
     <>
       <Navbar />
       {/* HERO SECTION START */}
-      <main className="mt-52 container flex mx-auto">
+      <main className="mt-52 container flex mx-auto lg:px-8 md:px-4">
         <div className="left mt-24">
-          <h1 className="text-6xl font-medium">
+          <h1 className="text-6xl lg:text-5xl md:text-4xl font-medium">
             Nechte vaše peníze <br />
             pracovat{" "}
-            <span className="font-bold text-7xl text-main">za Vás.</span>
+            <span className="font-bold text-7xl lg:text-6xl md:text-5xl text-main">za Vás.</span>
           </h1>
-          <p className="text-paragraph text-xl mt-6 w-10/12">
+          <p className="text-paragraph text-xl lg:text-lg mt-6 w-10/12">
             Spravujeme investiční portfolia pro více než 100 klientů s hodnotou
             přesahující 350 mil Kč
           </p>

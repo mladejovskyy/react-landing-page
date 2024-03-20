@@ -2,13 +2,13 @@ import { motion } from "framer-motion";
 
 function Services() {
   return (
-    <div className="services">
-      <div id="Reality" className="service flex container mx-auto mt-44">
-        <div className="left w-6/12 my-auto">
+    <div className="services lg:px-8 md:px-4">
+      <div id="Reality" className="service flex container mx-auto mt-44 md:mt-32">
+        <div className="left w-6/12 my-auto md:w-full">
           <h2 className="te font-bold text-5xl">
             Investice do <span className="text-main">nemovitostí</span>
           </h2>
-          <p className="text-paragraph text-lg mt-5 w-11/12">
+          <p className="text-paragraph text-lg mt-5 w-11/12 lg:text-base lg:w-full md:text-base md:w-full">
             Získejte stabilitu a růst svých financí s našimi investicemi do
             nemovitostí! S námi můžete snadno a bez starostí investovat do
             atraktivních realitních projektů. Navýšte svůj majetek s jistým a
@@ -25,7 +25,7 @@ function Services() {
         </div>
         <div className="right rounded-xl">
           <img
-            className="sluzby-foto rounded-xl ml-auto drop-shadow-lg"
+            className="sluzby-foto rounded-xl ml-auto drop-shadow-lg md:w-11/12"
             src="src/assets/nemovitosti.png"
             alt=""
           />
@@ -43,7 +43,7 @@ function Services() {
           <h2 className="te font-bold text-5xl">
             Investice do <span className="text-main">akcií</span>
           </h2>
-          <p className="text-paragraph text-lg mt-5 w-11/12">
+          <p className="text-paragraph text-lg mt-5 w-11/12 lg:text-base lg:w-full">
             Otevřete cestu k finančnímu růstu s naší investiční nabídkou do
             akcií! S námi můžete snadno investovat do dynamického světa akcií a
             těšit se na potenciální zhodnocení kapitálu. Začněte budovat svůj
@@ -64,7 +64,7 @@ function Services() {
           <h2 className="te font-bold text-5xl">
             Investice do <span className="text-main">komodit</span>
           </h2>
-          <p className="text-paragraph text-lg mt-5 w-11/12">
+          <p className="text-paragraph text-lg mt-5 w-11/12 lg:text-base lg:w-full">
             Rozšiřte své investiční možnosti a dosáhněte stabilního růstu s
             naším programem investic do komodit. Díky našemu odbornému vedení
             můžete snadno diversifikovat své portfolio a sledovat, jak se vaše

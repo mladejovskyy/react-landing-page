@@ -2,7 +2,7 @@ function Reviews({ reviewsData }) {
   return (
     <div
       id="reference"
-      className="reviews my-32 container mx-auto flex justify-center flex-col">
+      className="reviews my-32 container mx-auto flex justify-center flex-col lg:px-8">
       <h2 className="font-bold text-5xl mb-10">
         Co o náš říkají naši klienti?
       </h2>
@@ -10,7 +10,7 @@ function Reviews({ reviewsData }) {
       <div className="flex justify-center">
         {reviewsData.map((review, index) => (
           <div
-            className="card border rounded-3xl mx-8 p-8 shadow-md"
+            className="card border rounded-3xl mx-4 p-8 shadow-md"
             key={index}>
             <div className="flex mb-6">
               <img
@@ -19,8 +19,8 @@ function Reviews({ reviewsData }) {
                 alt=""
               />
               <div className="ml-4">
-                <h2 className="text-3xl font-medium">{review.name}</h2>
-                <p className="text-main">{review.job}</p>
+                <h2 className="text-3xl font-medium lg:text-2xl lg:font-semibold">{review.name}</h2>
+                <p className="text-main lg:text-sm">{review.job}</p>
               </div>
             </div>
             <p className="text block">{review.text}</p>

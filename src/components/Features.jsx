@@ -20,7 +20,7 @@ const featuresData = [
 
 function Features() {
     return (
-        <div className="container mx-auto flex justify-between mt-32">
+        <div className="container mx-auto flex justify-between mt-32 lg:px-8 md:px-4">
             <Feature img={featuresData[0].img} heading={featuresData[0].heading} text={featuresData[0].text}/>
             <Feature img={featuresData[1].img} heading={featuresData[1].heading} text={featuresData[1].text}/>
             <Feature img={featuresData[2].img} heading={featuresData[2].heading} text={featuresData[2].text}/>

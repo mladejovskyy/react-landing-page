@@ -13,11 +13,13 @@ function Navbar() {
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
         </a>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <a href="tel:+420723709079">
           <button
             type="button"
             className="text-white bg-main hover:bg-main focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-8 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             Nezávazná konzultace
           </button>
+          </a>
           <button
             data-collapse-toggle="navbar-cta"
             type="button"
@@ -55,7 +57,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="#spoluprace"
                 className="block py-1 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
                 Individuální spolupráce
               </a>
