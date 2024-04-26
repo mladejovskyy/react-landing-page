@@ -48,7 +48,7 @@ function App() {
             přesahující 350 mil Kč
           </p>
           <div className="investments flex my-12">
-            <Investment img={"../src/assets/iconStock.png"} text={"Akcie"} />
+            <Investment img={"src/assets/iconStock.png"} text={"Akcie"} />
             <Investment img={"src/assets/iconReality.png"} text={"Reality"} />
             <Investment
               img={"src/assets/iconCommodity.png"}
